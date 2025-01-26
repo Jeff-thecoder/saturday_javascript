@@ -1,0 +1,68 @@
+
+body{
+    box-sizing: border-box;
+    background-color: rgb(59, 61, 60);
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+#root{
+    background-color: seashell;
+    color: black;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    width: 98%;
+    max-width: 1250px;
+    padding: .2rem 0;
+}
+#root p{
+    padding: .5rem;
+    background-color: white;
+    margin: .5rem;
+    border-bottom: 1px solid grey;
+    border-left: 4px solid transparent;
+}
+#root p:hover{
+    border-left: 4px solid grey;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin: 0 auto;
+    max-width: 1220px;
+    padding: .5rem 1rem;
+    background-color: black;
+}
+.form *{
+    font-size: 17px;
+}
+.form button{
+    width: 120px;
+    border-radius: 3px;
+    background-color: rgb(201, 201, 201);
+}
+.form button:hover{
+    background-color: white;
+    cursor: pointer;
+}
+label{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 120px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0
+}
+select, input{
+    width: 150px !important;
+    min-width: 150px;
+    border: none;
+    padding: 0 0 0 .3rem
+}
+select{
+    border: 2px solid white;
+    width: 155px !important;
+}
