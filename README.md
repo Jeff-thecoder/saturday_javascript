@@ -6,7 +6,9 @@ cd into project folder
 git init                                                                                         
 
 git remote add origin git@github.com:Jeff-thecoder/js_three_tier.git                                  
-git remote set-url origin git@github.com:Jeff-thecoder/js_three_tier.git                                                                                                  git remote -v                                                                                           
+git remote set-url origin git@github.com:Jeff-thecoder/js_three_tier.git  
+                                                                                                  
+git remote -v                                                                                           
 
 We should see this:  
 origin  git@github.com:Jeff-thecoder/js_three_tier.git (fetch)  
