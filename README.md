@@ -12,6 +12,7 @@ We should see this:
 origin  git@github.com:Jeff-thecoder/js_three_tier.git (fetch)  
 origin  git@github.com:Jeff-thecoder/js_three_tier.git (push)  
 
+Create file via PowerShell
 echo "### enter the new project description" >> README.md    
 ```
 
