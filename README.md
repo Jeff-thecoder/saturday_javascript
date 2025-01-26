@@ -1,6 +1,6 @@
 ﻿###  Just a GIT practice repo
 
-```js
+```md
 mkdir <project name>  
 cd into project folder  
 git init                                                                                         
